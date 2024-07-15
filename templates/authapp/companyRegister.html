@@ -67,7 +67,14 @@
             cursor: pointer;
             font-size: 16px;
             display: block;
-            width: 100%;
+            width: 40%;
+        }
+        .butt-link{
+            color: gray;
+            text-decoration:underline;
+            display:block;
+            width:50%;
+            margin-top:1rem;
         }
         .submit-btn:hover {
             background-color: #FF4500; /* Darker orange shade */
@@ -157,6 +164,7 @@
                 <input type="email" id="contact-person-email" name="contact-person-email" required>
             </div>
             <button type="submit" class="submit-btn">Register</button>
+            <a class="butt-link" href="/authapp/enterCompanyID" >Already Registered Company? Sign in as a Root User.</a>
         </form>
     </div>
 
