@@ -9,3 +9,6 @@ def company_registration(request):
 
 def enterCompanyID(request):
     return render(request, "authapp/enterCompanyID.html")
+
+def registrationSuccess(request):
+    return render(request, "authapp/registrationSuccess.html")
